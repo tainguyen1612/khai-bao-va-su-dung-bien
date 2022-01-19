@@ -1,0 +1,24 @@
+@import "../main";
+
+.booking {
+	&__total {
+		color: $color-bg-7;
+	}
+
+	&__info {
+		line-height: 25px;
+
+		p {
+			font-weight: bold;
+
+			span {
+				font-weight: 300;
+				margin-left: 10px;
+			}
+		}
+	}
+
+	&__code {
+		color: $color-bg-7;
+	}
+}

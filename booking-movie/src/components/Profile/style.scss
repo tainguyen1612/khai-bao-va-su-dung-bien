@@ -1,0 +1,56 @@
+@import "../main";
+
+.profile {
+	background-color: $color-bg-3;
+
+	&__image {
+		background-color: $color-white-1;
+		width: 50%;
+		margin: auto;
+		text-align: center;
+		border-radius: 10px;
+		padding: 25px 0;
+	}
+
+	&__info {
+		width: 50%;
+		background-color: $color-white-1;
+		border-radius: 10px;
+		margin: auto;
+		display: flex;
+		justify-content: center;
+		padding: 10px 0;
+		flex-wrap: wrap;
+
+		&__label {
+			margin-left: 70px;
+
+			p {
+				font-weight: bold;
+				margin: 10px 0;
+				position: relative;
+				&::after {
+					content: "";
+					position: absolute;
+					width: 300px;
+					height: 1px;
+					background-color: $color-bg-3;
+					left: -15px;
+					bottom: -5px;
+				}
+			}
+		}
+
+		&__title {
+			margin-left: 30px;
+
+			p {
+				margin: 10px 0;
+			}
+		}
+	}
+
+	&__modal {
+		flex-basis: 100%;
+	}
+}

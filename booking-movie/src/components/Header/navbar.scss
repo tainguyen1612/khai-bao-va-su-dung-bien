@@ -1,0 +1,71 @@
+.sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 230px;
+	background: #000000;
+	padding: 6px 14px;
+	z-index: 99;
+	transition: all 0.5s ease;
+
+	&__header {
+		font-size: 1.5rem;
+		color: #fff;
+		margin: 20px 15px;
+	}
+
+	&__list {
+		margin-top: 20px;
+
+		li {
+			position: relative;
+			height: 50px;
+			width: 100%;
+			margin: 0 5px;
+			list-style: none;
+			line-height: 50px;
+			margin: 5px 0;
+
+			a {
+				color: #fff;
+				display: flex;
+				align-items: center;
+				text-decoration: none;
+				border-radius: 12px;
+				white-space: nowrap;
+				transition: all 0.4s ease;
+
+				&:hover {
+					color: #fff;
+					background: #ff0000;
+				}
+			}
+
+			i {
+				font-size: 18px;
+				font-weight: 400;
+				height: 50px;
+				min-width: 50px;
+				border-radius: 12px;
+				line-height: 50px;
+				text-align: center;
+			}
+		}
+	}
+
+	&__links__name {
+		font-size: 1rem;
+		font-weight: 400;
+		color: white;
+		pointer-events: none;
+		transition: all 0.3s ease;
+	}
+}
+
+.link__active {
+	width: fit-content;
+	color: #fff;
+	background: #ff0000;
+	border-radius: 12px;
+}

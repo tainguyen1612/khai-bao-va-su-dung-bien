@@ -1,0 +1,32 @@
+// variable color
+$color-bg-1: #26272b;
+$color-bg-2: #33353d;
+$color-bg-3: #eceeef;
+$color-bg-4: #3b5998;
+$color-bg-5: #00aced;
+$color-bg-6: #007bb6;
+$color-bg-7: #ea4c89;
+$color-border-1: #bbb;
+$color-hover-1: #3366cc;
+$color-hover-2: #29aafe;
+$color-gray-1: #737373;
+$color-gray-2: #96a2b2;
+$color-gray-3: #818a91;
+$color-gray-4: rgb(184, 183, 183);
+$color-white-1: #fff;
+$color-orange-1: rgb(248, 165, 10);
+
+// responsive
+// response breakpoint
+$breakpoints-up: (
+	"xs": "576px",
+	"small": "767px",
+	"medium": "1023px",
+	"large": "1200px",
+);
+$breakpoints-down: (
+	"xs": "480px",
+	"small": "769px",
+	"medium": "991px",
+	"large": "1200px",
+);

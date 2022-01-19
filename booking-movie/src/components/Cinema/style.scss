@@ -1,0 +1,19 @@
+@import "../main";
+
+.cineplex {
+	&__list {
+		border-bottom: 1px dotted $color-border-1;
+	}
+
+	&__header {
+		h3 {
+			text-align: left;
+			font-size: 1.5rem;
+			font-weight: bold;
+			margin: 10px 0;
+			span {
+				font-weight: 300;
+			}
+		}
+	}
+}
